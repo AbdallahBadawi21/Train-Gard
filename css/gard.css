@@ -1,0 +1,1348 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Stylr Header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .cont-1 {
+    flex-basis: 15%;
+    background-color: #E41C26;
+}
+
+header .cont-1 img {
+    padding: 1rem;
+    width: 100%;
+}
+
+header .cont-2 {
+    flex-basis: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: #111; */
+}
+
+header .cont-2 .App {
+    flex-basis: 50%;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-2 .App .App-1 {
+    flex-basis: 50%;
+    padding: 0.7rem;
+}
+
+.cont-2 .App .App-1 a {
+    padding-right: 1rem;
+}
+
+.cont-2 .App .App-2 {
+    flex-basis: 50%;
+    padding: 0.7rem;
+    text-align: end;
+}
+
+.cont-2 .App .App-2 a {
+    padding-right: 2rem;
+}
+
+header .cont-2 .Link {
+    flex-basis: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .cont-2 .Link a {
+    color: #000;
+}
+
+.Link .Link-1 {
+    padding-left: 30rem;
+}
+
+.Link .Link-1 a {
+    padding-left: 2rem;
+}
+
+.Link .Link-1 a.active {
+    font-weight: 900;
+    color: #E41C26;
+    position: relative;
+}
+
+.Link .Link-search a {
+    padding-right: 1rem;
+} 
+/* End Header */
+
+
+/* Style Back */
+.back {
+    background-image: url(../Imges/Rectangle\ 9.svg);
+    background-position: center;
+    background-size: cover;
+    height: 78vh;
+    min-height: 100px;
+    position: relative;
+}
+
+.back .Back-Text {
+    position: absolute;
+    padding-left: 6%;
+    top: 7rem;
+}
+
+.back .Back-Text h1 {
+    color: #FFF;
+    font-weight: 900;
+    /* font-family: 'Bold'; */
+    font-size: 3rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.back .Back-Text p {
+    color: #FFF;
+}
+
+.back .Back-Text .paragraph {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+}
+
+.back .Back-Text p#active {
+    font-weight: 700;
+    position: relative;
+}
+
+.back .Back-Text p#active::before {
+    content: "";
+    width: 131px;
+    height: 5px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: -10px;
+    left: -28px;
+}
+
+.back .Back-Text p#active::after {
+    content: "";
+    width: 8px;
+    height: 14px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: -7px;
+    left: 95px;
+}
+
+.back .Back-Text h1.active {
+    font-weight: 700;
+    position: relative;
+}
+
+.back .Back-Text h1.active::before {
+    content: "";
+    width: 5px;
+    height: 255px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: -40px;
+    left: -28px;
+}
+
+.back .Back-Text h1.active::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 211px;
+    left: -23px;
+}
+
+.back .Back-Text a {
+    position: relative;
+    color: #FFF;
+    border-radius: 10px;
+    border-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 1rem;
+}
+
+.back .Back-Text a.active8::before {
+    content: "";
+    width: 4px;
+    height: 38px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 19px;
+    left: -11px;
+}
+
+.back .Back-Text a.active8::after {
+    content: "";
+    width: 35px;
+    height: 4px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 57px;
+    left: -11px;
+}
+/* End Back */
+
+
+/* Style Section-1 */
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.section-1-1 {
+    flex-basis: 33.3%;
+    background-color: #222222;
+    position: relative;
+}
+
+.section-1-1 .Progression-opa1 {
+    opacity: 0.2;
+    top: 8rem;
+    left: 15rem;
+    position: absolute;
+}
+
+.section-1-2 {
+    flex-basis: 33.4%;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.section-1-2 .WorkOut-opa2 {
+    position: absolute;
+    opacity: 0.2;
+    top: 8rem;
+    left: 9rem;
+}
+
+.section-1-3 {
+    flex-basis: 33.3%;
+    background-color: #E41C26;
+    position: relative;
+}
+
+.section-1-3 .Nutrition-opa3 {
+    position: absolute;
+    opacity: 1.2;
+    top: 8.1rem;
+    left: 0rem;
+}
+
+.section-1>div img {
+    margin-top: 1rem;
+}
+
+.section-1 p,
+.section-1 h2 {
+    color: #fff;
+}
+
+.section-1 .section-1-2 p {
+    color: #515151;
+}
+
+.section-1 .section-1-2 h2 {
+    color: #E41C26;
+}
+/* End Section-1 */
+
+
+/* Style Section-2 */
+.section-2 {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 6%;
+    padding-left: 6%;
+    position: relative;
+}
+
+.section-2 .Text,
+.section-2 .Img {
+    flex: 0 0 50%;
+}
+
+.section-2>div .Text-1 .text-about {
+    color: #5E5E5E;
+    font-size: small;
+}
+
+.section-2>div .Text-1 h2.active {
+    color: #000;
+    position: relative;
+    font-weight: 700;
+}
+
+.section-2>div .Text-1 h2.active::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.section-2 .Text p {
+    color: #202020;
+    font-size: 1rem;
+} 
+
+.section-2 .Img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .Img img {
+    width: 95%;
+    height: auto;
+    max-height: calc(100vh - 8rem);
+}
+
+.section-2 .Text-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section-2 .Text-2 .Text-Fitness {
+    display: flex;
+    align-items: center;
+}
+
+.section-2 .Text-2 .Text-Fitness img {
+    margin-right: 2rem;
+}
+
+.section-2 .Text-2 .Text-Cardio {
+    display: flex;
+    align-items: center;
+}
+
+.section-2 .Text-2 .Text-Cardio img {
+    margin-right: 2rem;
+}
+/* End Section-2 */
+
+
+/* Style Section-3 */
+.section-3 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 6%;
+}
+
+.section-3 .section-3-1 {
+    padding-bottom: 1rem;
+}
+
+.section-3 .section-3-1 h3 {
+    font-weight: 900;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: 'Bold';
+    text-align: center;
+}
+
+.section-3 .section-3-1 h3.active {
+    position: relative;
+    font-weight: 700;
+}
+
+.section-3 .section-3-1 h3.active::before {
+    content: "";
+    width: 220px;
+    height: 3px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.section-3 .section-3-1 p {
+    color: #D1D1D1;
+    text-align: center;
+}
+
+.section3-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.section3-2>div {
+    padding: 1rem 1.5rem;
+    background-color: #2A2A2A;
+}
+
+.section3-2 h3 {
+    color: #FFF;
+    font-size: 23px;
+}
+
+.section3-2 p {
+    color: #D1D1D1;
+    font-size: 18px;
+}
+
+.section3-2 .Bottoms-parag,
+.section3-2 .Hoodies-parag {
+    margin: 1rem;
+}
+
+.section3-3 {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    color: #FFF;
+    border-radius: 10px;
+    border-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section3-4 {
+    background-color: #F60000;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -9rem;
+    left: 17rem;
+}
+
+.section3-4 .sec-3-4-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3-4 .sec-3-4-img img {
+    width: 98%;
+    height: auto;
+}
+
+.section3-4 .sec-3-4-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 10rem;
+    /* margin-left: 1rem; */
+}
+
+.section3-4 .sec-3-4-text h3 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Bold';
+}
+
+.section3-4 .sec-3-4-text h3.active9 {
+    position: relative;
+    font-weight: 700;
+}
+
+.section3-4 .sec-3-4-text h3.active9::before {
+    content: "";
+    width: 95px;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.section3-4 .sec-3-4-text p {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.section3-4 .sec-3-4-text  .read {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section3-4 .sec-3-4-text .read a {
+    /* position: relative; */
+    color: #FFF;
+    border-radius: 10px;
+    border-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 1rem;
+}
+/* End Section-3 */
+
+
+/* Style Testimonial-section */
+.Testimonial-section {
+    margin-top: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 6%;
+    padding-left: 6%;
+    position: relative;
+    /* background-color: gold; */
+}
+
+.Testimonial-section .Test-Text,
+.Testimonial-section .Test-Img {
+    flex: 0 0 50%;
+}
+
+.Testimonial-section .Test-Text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.Testimonial-section>div .Test-Text-1 .Test-para-1 {
+    color: #5E5E5E;
+    font-size: 1rem;
+}
+
+.Testimonial-section>div .Test-Text-1 h2.active {
+    color: #000;
+    position: relative;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.Testimonial-section>div .Test-Text-1 h2.active::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.Testimonial-section .Test-Text-2 p,
+.Testimonial-section .Test-Text-3 p {
+    color: #7E7E7E;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.Testimonial-section .Test-Text-1 p#active10 {
+    position: relative;
+}
+
+.Testimonial-section .Test-Text-1 p#active10::before {
+    content: "";
+    width: 2px;
+    height: 40px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -168px;
+    left: 705PX;
+}
+
+.Testimonial-section .Test-Text-1 p#active10::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -170px;
+    left: 705PX;
+
+}
+
+.Testimonial-section .Test-Text-2 h3 {
+    color: #000;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.Testimonial-section .Test-Text-2 img {
+    width: 15%;
+}
+
+.Testimonial-section .Test-Text-3 {
+    position: relative;
+}
+
+.Testimonial-section .Test-Text-3 .Q1 {
+    position: absolute;
+    top: -2rem;
+    left: 15rem;
+    opacity: 0.3;
+}
+
+.Testimonial-section .Test-Img {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.Testimonial-section .Test-Img img {
+    width: 65%;
+    height: auto;
+}
+/* End Testimonial-Section */
+
+
+/* Style Lorem ipsum  */
+.Lorem-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #000;
+    position: relative;
+    height: 36vh;
+}
+
+.Lorem-section .Lorem-sec1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+.Lorem-section .Lorem-sec1 .lorem-all {
+    padding-right: 14rem;
+    position: relative;
+}
+
+.Lorem-section .Lorem-sec1 .lorem-all h4 {
+    position: absolute;
+    top: -8px;
+    left: 57px;
+    color: #FFF;
+}
+
+.Lorem-section .Img-g {
+    position: absolute;
+    z-index: 5;
+    top: 7rem;
+    width: 58%;
+    height: auto;
+}
+
+.Lorem-section .Img-s {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 15rem;
+}
+/* End lorem-Section */
+
+
+/* Style Training Series-section */
+.Training-Series-section {
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 6%;
+    padding-left: 6%;
+    position: relative;
+}
+
+.Training-Series-section .Series-1 h3,
+.Blog-section .Blog-1-text h5 {
+    font-weight: 900;
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'Bold';
+    text-align: center;
+}
+
+.Training-Series-section .Series-1 h3.active,
+.Blog-section .Blog-1-text h5.active1 {
+    position: relative;
+    font-weight: 700;
+}
+
+.Training-Series-section .Series-1 h3.active::before,
+.Blog-section .Blog-1-text h5.active1::before {
+    content: "";
+    width: 220px;
+    height: 3px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.Training-Series-section .Series-1 p,
+.Blog-section .Blog-1-text p {
+    color: #7E7E7E;
+    text-align: center;
+}
+
+.Training-Series-section .Series-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.Series-2 .Series-2-1 div {
+    border-color: #fff;
+    background-color: #FFF;
+    border-radius: 15px;
+    position: absolute;
+    top: 21rem;
+    left: 25rem;
+    text-align: center;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.16);
+}
+
+.Series-2 .Series-2-1 div p {
+    margin-bottom: 0;
+    color: #E41C26;
+}
+
+.Series-2 .Series-2-2 div {
+    border-color: #fff;
+    background-color: #FFF;
+    border-radius: 15px;
+    position: absolute;
+    top: 21rem;
+    left: 47rem;
+    text-align: center;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.16);
+}
+
+.Series-2 .Series-2-2 div p {
+    margin-bottom: 0;
+    color: #E41C26;
+}
+
+.Training-Series-section .Series-3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Training-Series-section #active3 {
+    position: relative;
+    font-weight: 700;
+}
+
+.Training-Series-section #active3::before {
+    content: "";
+    width: 25px;
+    height: 3px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 7px;
+    left: -25px;
+}
+
+.Training-Series-section #active3::after {
+    content: "";
+    width: 25px;
+    height: 3px;
+    background-color: #4D4D4D;
+    position: absolute;
+    z-index: 5;
+    top: 7px;
+    left: 15px;
+}
+/* End raining-Series-Section */
+
+
+/* Style Power-Section */
+.Power-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Imges/protein\ powder-back.svg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    min-height: 100px;
+    position: relative;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.Blog-section .Power-Text,
+.Power-section .Power-Img {
+    flex: 0 0 50%;
+}
+
+.Power-section .Power-Text {
+    margin-top: 4rem;
+    /* margin-bottom: 3rem; */
+}
+
+
+.Power-section .Power-Text h3 {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-family: 'Bold';
+}
+
+.Power-section .Power-Text h3.active2  {
+    position: relative;
+    font-weight: 700;
+}
+
+.Power-section .Power-Text h3.active2::before {
+    content: "";
+    width: 220px;
+    height: 3px;
+    background-color: #FFF;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.Power-section .Power-Text p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #FFF;
+    /* font-size: 1rem; */
+    line-height: 1.7;
+}
+
+.Power-section .Power-Text div {
+    margin-top: 3rem;
+}
+
+.Power-section .Power-Text div a {
+    border-radius: 0;
+    color: #FFF;
+}
+
+.Power-section .Power-Text .btn-3 {
+    color: #FFF;
+    border-radius: 10px;
+    border-color: #FFF;
+    border: 1px solid #FFF;
+    padding: 1rem;
+}
+
+.Power-section .Power-Img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Power-section .Power-Img img {
+    width: 95%;
+    height: auto;
+    max-height: calc(100vh - 8rem);
+}
+/* End Power-Section */
+
+
+/* selling-Product-section */
+.selling-Product-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.selling-Product-section .Selling-text,
+.selling-Product-section .Selling-img {
+    flex: 0 0 50%;
+}
+
+.selling-Product-section .Selling-text {
+    padding-left: 3rem;
+    padding-top: 4rem;
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: column; */
+}
+
+.selling-Product-section .Selling-text .parag-selling {
+    color: #5E5E5E;
+}
+
+.selling-Product-section .Selling-text p.active6 {
+    position: relative;
+}
+
+.selling-Product-section .Selling-text p#active6::before {
+    content: "";
+    width: 7px;
+    height: 49px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 53px;
+    left: 546px;
+}
+
+.selling-Product-section .Selling-text h3 {
+    font-weight: 900;
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: 'Bold';
+}
+
+.selling-Product-section .Selling-text h3.active4  {
+    position: relative;
+    font-weight: 700;
+}
+
+.selling-Product-section .Selling-text h3.active4::before {
+    content: "";
+    width: 220px;
+    height: 3px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+}
+
+.selling-Product-section .Selling-text p {
+    color: #5E5E5E;
+}
+
+.selling-Product-section .Selling-text div {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.selling-Product-section .Selling-text div .btn-4 {
+    background-color: #7070705c;
+    color: #AEAEAE;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.selling-Product-section .Selling-text div .btn-fill1 {
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.selling-Product-section .Selling-text h4 {
+    font-weight: 900;
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'Bold';
+}
+
+.selling-Product-section .Selling-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selling-Product-section .Selling-img img {
+    width: 95%;
+    height: auto;
+}
+
+.selling-Product-section  #active {
+    position: relative;
+}
+
+.selling-Product-section #active::before {
+    content: "";
+    width: 362px;
+    height: 8px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 45px;
+    left: 110px;
+}
+
+.selling-Product-section #active::after {
+    content: "";
+    width: 8px;
+    height: 380px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 46px;
+    left: 110px;
+}
+
+.selling-Product-section .Selling-text h4#active5 {
+    position: relative;
+}
+
+.selling-Product-section .Selling-text h4#active5::before {
+    content: "";
+    width: 151px;
+    height: 8px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 115px;
+    left: -524px;
+}
+
+.selling-Product-section .Selling-text #btn {
+    color: #FFF;
+    border-radius: 0px;
+    border-color: red;
+    border: 1px solid #000;
+    padding: 1rem;
+    background-color: #000;
+}
+
+.selling-Product-section .Selling-text a.active7 {
+    position: relative;
+}
+
+.selling-Product-section .Selling-text a.active7::before {
+    content: "";
+    width: 8px;
+    height: 25px;
+    background-color: #F60000;
+    position: absolute;
+    z-index: 5;
+    top: 27px;
+    left: -382px;
+}
+
+.selling-Product-section .Selling-text .btn-5 {
+    color: #000;
+    border-radius: 0px;
+    border: 1px solid #7070705c;
+    padding: 1rem;
+    background-color: #7070705c;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+/* End Selling-Product-Section */
+
+
+/* Style Blog-Section */
+.Blog-section {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.Blog-section .Blog-Text h4 {
+    font-weight: 900;
+    color: #000000;
+    font-size: 2rem;
+    font-family: 'Bold';
+    text-align: center;
+}
+
+.Blog-section .Blog-Text h4.active {
+    position: relative;
+}
+
+.Blog-section .Blog-Text h4.active::before {
+    content: "";
+    width: 114px;
+    height: 3px;
+    background-color: #E41C26;
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+    left: 221px;
+}
+
+.Blog-section .Blog-Text p {
+    color: #7E7E7E;
+    text-align: center;
+}
+
+.Blog-section .Blog-Img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.Blog-section .Blog-Img .sub-pic>div {
+    position: relative;
+}
+
+.Blog-section .Blog-Img .sub-pic>div .btn {
+    position: absolute;
+    color: #FFF;
+    border-radius: 0px;
+    border-color: red;
+    border: 1px solid red;
+    padding: 0.5rem;
+    background-color: red;
+    top: -6rem;
+    left: 3rem;
+    text-align: center;
+}
+
+.Blog-section .Blog-Img .sub-pic h5 {
+    padding-left: 32px;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.Blog-section .Blog-Img .sub-pic p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #7E7E7E;
+    font-size: 1rem;
+    line-height: 1.7;
+    padding-left: 32px;
+}
+
+.Blog-section .Blog-Link {
+    margin-top: 2rem;
+}
+
+.Blog-section .Blog-Link a {
+    color: #F60000;
+}
+
+.Blog-section .Blog-Img .sub-pic .L1 {
+    padding-left: 30px;
+    color: #7E7E7E;
+}
+
+.Blog-section .Blog-Img .sub-pic .L2 {
+    color: #7E7E7E;
+    margin-left: 32px;
+    border: 1px solid #000;
+    padding: 1rem;
+}
+/* End Blog-Section */
+
+
+/* Style Form-section */
+.Form-section {
+    background-color: #EEEEEE;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+    padding-left: 6%;
+    padding-right: 6%;
+    height: 45vh;
+}
+
+.Form-section .form-info {
+    background-color: #E41C26;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    top: -3rem;
+    left: 17rem;
+    width: auto;
+    height: 100%;
+}
+
+.Form-section .form-info div h5 {
+    font-weight: 900;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: 'Bold';
+    margin-bottom: -1rem;
+    margin-top: 0;
+}
+
+.Form-section .form-info .Sub-p {
+    margin-bottom: -1rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.Form-section .form-info .Sub-p1 {
+    color: #FFF;
+    margin-top: 3rem;
+}
+
+.Form-section .form-info .form-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.Form-section .form-info .form-link .in-1 {
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.Form-section .form-info .form-link .in-2 {
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.Form-section .form-info .form-link .in-3 {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 8px;
+}
+/* End Form-Section */
+
+
+/* Style Footer-Secction */
+.Footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 6%;
+    padding-left: 6%;
+    position: relative;
+    background-color: #111111;
+}
+
+.Footer-section .Footer-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Footer-section .Footer-1-text1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-1 .Footer-1-img {
+    position: absolute;
+    bottom: 6rem;
+}
+
+.Footer-1 .Footer-1-img1 {
+    position: absolute;
+    bottom: 4rem;
+}
+
+.Footer-section .Footer-1-text1 p {
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    color: #FFF;
+}
+
+.Footer-section .Footer-1-text2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Footer-1 .Footer-1-img2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.Footer-section .Footer-1-text2 p {
+    position: absolute;
+    top: 11rem;
+    left: 7rem;
+    color: #FFF;
+}
+
+.Footer-section .Footer-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Footer-section .Footer-2 h6,
+.Footer-section .Footer-3 h6,
+.Footer-section .Footer-4 h6 {
+    font-weight: 700;
+    color: #FFF;
+}
+
+.Footer-section .Footer-2-link {
+    line-height: 2;
+}
+
+.Footer-section .Footer-2-link li {
+    list-style: none;
+}
+
+.Footer-section .Footer-2-link a {
+    color: #FFF;
+}
+/* End Footer-Section */
